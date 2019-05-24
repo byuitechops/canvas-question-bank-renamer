@@ -1,0 +1,27 @@
+{
+  "name": "canvas-question-bank-renamer",
+  "version": "1.0.0",
+  "description": "A puppeteer program to replace words in Canvas courses",
+  "main": "bin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byuitechops/canvas-question-bank-renamer.git"
+  },
+  "author": "Jacob Schwantes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/byuitechops/canvas-question-bank-renamer/issues"
+  },
+  "homepage": "https://github.com/byuitechops/canvas-question-bank-renamer#readme",
+  "dependencies": {
+    "d3-dsv": "^1.1.1",
+    "p-map": "^2.1.0",
+    "p-reduce": "^2.1.0",
+    "p-times": "^2.1.0",
+    "puppeteer": "^1.16.0",
+    "puppeteer-canvas-login": "git+https://github.com/byuitechops/puppeteer-canvas-login.git"
+  }
+}
